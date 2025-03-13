@@ -24,7 +24,7 @@ public class Produto {
     private Integer preco;
 
     public Produto(ProdutoRequeDTO data){
-        this.preco = data.price();
-        this.nome = data.name();
+        this.preco = data.preco();
+        this.nome = data.nome();
     }
 }
